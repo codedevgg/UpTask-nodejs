@@ -1,0 +1,42 @@
+{
+    "name": "uptasknodejs",
+    "version": "1.0.0",
+    "description": "Proyecto UpTask con Node MVC",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./index.js",
+        "start": "concurrently \"npm run dev \" \"npm run watch \"",
+        "watch": "webpack --w --mode development"
+    },
+    "author": "Giacinto Greco",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "bcrypt-nodejs": "0.0.3",
+        "concurrently": "^4.1.0",
+        "connect-flash": "^0.1.1",
+        "cookie-parser": "^1.4.4",
+        "express": "^4.16.4",
+        "express-session": "^1.16.1",
+        "express-validator": "^5.3.1",
+        "html-to-text": "^5.1.1",
+        "juice": "^5.2.0",
+        "mariadb": "^2.0.3",
+        "nodemailer": "^6.1.1",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0",
+        "pug": "^2.0.3",
+        "sequelize": "^5.7.4",
+        "shortid": "^2.2.14",
+        "slug": "^1.1.0",
+        "sweetalert2": "^8.8.7"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "babel-loader": "^8.0.5",
+        "nodemon": "^1.18.11",
+        "webpack": "^4.30.0",
+        "webpack-cli": "^3.3.1"
+    }
+}
