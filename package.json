@@ -11,7 +11,7 @@
     "author": "Giacinto Greco",
     "license": "ISC",
     "dependencies": {
-        "axios": "^0.21.1",
+        "axios": "^0.21.2",
         "bcrypt-nodejs": "0.0.3",
         "concurrently": "^4.1.2",
         "connect-flash": "^0.1.1",
